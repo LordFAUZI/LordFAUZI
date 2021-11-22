@@ -861,3 +861,5 @@ jadi kita bisa menjalankan semua script root tanpa harus melakukan rooting terha
 
 itulah beberapa tools yang mungkin kalian butuhkan
 semoga bermanfaat yaa kawan :)
+
+FOLLOW INSTAGRAM AKU : btr_fauzibaee
