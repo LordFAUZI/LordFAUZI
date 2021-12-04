@@ -86,17 +86,17 @@ class prankcall{
 	}
 	public function run(){
 		while(true){
-			echo "root@.Uzi=# kirim mode manual/auto ?(y/t) : ";
+			echo "root@.Mr.yM=# Kirim Mode Manual/Auto ?(y/t) : ";
 			$loop = $this->get();
 			if($loop=="y" OR $loop=="t"){
 				break;
 			}else{
-				echo "jika manual ketik (y) jika auto ketik (t)\n";
+				echo "Jika manual ketik (y) jika auto ketik (t)\n";
 				continue;
 			}
 		}
 		if($loop=="y"){
-			echo "root@.Uzi=# masukan jumlah spam : ";
+			echo "root@.Mr.yM=# Masukan Jumlah Spam : ";
 			$many = $this->get();
 			$this->loop($many);
 		}else{
@@ -115,10 +115,10 @@ echo $green."
 ╔═╗┌─┐┌─┐┌┬┐  ╔═╗┌─┐┬  ┬  
 ╚═╗├─┘├─┤│││  ║  ├─┤│  │   X [POS]
 ╚═╝┴  ┴ ┴┴ ┴  ╚═╝┴ ┴┴─┘┴─┘\n".$blue.
-"perkumpulan orang spam";
+"Perkumpulan Orang Spam";
 echo $red."
 [!] Author   : LordFAUZI						[!]
-[!] Youtube  : https://youtube.com/shorts/uhmNuS3rqWY?feature=share   [!]
+[!] Youtube  : https://youtube.com/channel/UC371vt3y20lG7_onbL1XO8Q   [!]
 [!] github   : github.com/LordFAUZI        [!]\n";
 echo $green."
 ======================================
@@ -131,7 +131,7 @@ echo "| [!] 0852***** or 62852******  [!] |\n";
 echo "+-----------------------------------+\n";
 echo " \n";
 sleep ('0.4');
-echo "root@.Uzi=# input no target : ";
+echo "root@.Mr.yM=# Input No Target : ";
 $no = get();
 $n = new prankCall($no);
 $n->run();
